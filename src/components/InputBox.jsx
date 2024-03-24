@@ -32,7 +32,7 @@ className = "",
             <select
             className='rounded-lg px-1 py-1 bg-gray-200 cursor-pointer outline-none'
             value={selectedCurrency}
-            onChange={ (e) => { onCurrencyChange && onCurrencyChange(e.target.value)}}
+            onChange={(e) => { onCurrencyChange && onCurrencyChange(e.target.value)}}
             disabled = {currencyDisabled}
             >
            {currencyOptions.map((currency) => (
